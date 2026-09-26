@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Concept Note: Down-to-Earth Data Analysis
+        Using Inverse Theory Hands-On</title>
+
+<link rel=stylesheet href="../contentsstyle.css">
+</head>
+
+<body leftmargin="30" marginwidth="30" topmargin="30" marginheight="30">
+
+<body>
+
+<SCRIPT language=JavaScript><!--
+navbar(1)
+//--></SCRIPT>
+
+<h2><b><font size =6 color = "maroon"><b> Introduction </b></font></b></h2>
+<p> <font size = 5><b>
+</b>
+
+<p> Geophysical data analysis lies at the core of modern Earth sciences, enabling researchers to infer subsurface properties from indirect measurements. Inverse theory provides a rigorous mathematical framework for transforming observed geophysical data into meaningful interpretations. This concept note outlines a hands-on training module that integrates linear algebra, SVD, and factor analysis with examples from environmental science, paleontology and petrology and applications to global warming and current climate change.
+</p>
+
+<p>
+<b>
+Objectives:</b>
+
+
+<li>    Develop a conceptual and computational understanding of inverse problems in geophysics using Python and MatLab/R.
+<li>    Apply linear algebra and probability theory to model data relationships and solve over/under determined systems.
+<li>     Implement Singular Value Decomposition (SVD) for inverse problems and factor analysis to identify dominant patterns in multivariate geophysical datasets.
+<li>   Use the iLOSCAR code to invert paleogeographical data and compare with current global warming and climate change.
+
+</p>
+</p>
+
+
+<p><b>
+    Topics Covered:</b>
+
+
+<li> <b> Introduction to inverse theory:</b> using observations to infer hidden properties.
+    Forward problem: Given a model (e.g., Earth layers), predict data.
+    Inverse problem: Given data, find the best model.
+    We write data as d = Gm, where d = observed data, G = sensitivity matrix (how model affects data), m = model parameters (e.g., layer thickness, velocity)
+
+   
+       
+   <li> <b>Linear Algebra and Matrix Analysis foundation:</b> Matrix operations, rank, null space, eigenvalues and eigenvectors. Singular Value Decomposition (SVD) breaks down the matrix G into simpler parts. Introduction to over- and under determined problems.
+       
+   <li> <b>Probability & Bayes Theory:</b> Posteriors, Likelihoods and Priors, Hypothesis testing, Correlation and Regression, Analysis of Variance applied to ecological data
+       
+ <li> <b>Factor Analysis:</b> SVD applied to rock chemistry data taken from a petrology database to deduce the number of the source rocks (called factors) and their composition from observations of the composition of the sediments (called samples)
+     
+<li> <b>Earth’s Layers & Reflectivity:</b> Solving the seismological problem of estimating the properties of an interface using measurements of reflection coefficients
+    
+<li> <b>Seismic Travel time Tomography:</b> a widely used method of imaging the Earth's interior by using the travel times of waves propagating through the medium
+    
+    <li> <b>Climate Change:</b> analysis of sedimentary data records from the Permian epoch, real-world predictions from the IPCC using the iLOSCAR code, inferences for greenhouse effect
+      
+      
+      </p>
+     <b> Tools & Software: </b>
+      <p>
+      Python: NumPy, SciPy, scikit-learn, R: Basic hypothesis testing, regression, ANOVA, iLOSCAR: For carbon cycle modeling (available via GitHub)
+    
+    </p>
+   <b> Expected Outcomes: </b>
+    <p>
+    <li> Proficiency in formulating and solving inverse problems in geophysics.
+        
+    <li>Practical experience in applying SVD and factor analysis to real geoscience data.
+        
+    <li>Improved interdisciplinary collaboration between mathematics, statistics, hydrology, petrology, environmental science, and geophysics.
+
+  
+  
+
+
+
+
+    <p>
+    
+   <b> List of References: </b>
+    </p>
+   <li>  <a href = "https://shop.elsevier.com/books/geophysical-data-analysis-and-inverse-theory-with-matlab-and-python/menke/978-0-443-13794-5" target = "blank"><b><u> Geophysical Data Analysis and Inverse Theory with MatLab or Python, Fifth Edition (2024) </u></b> </a>, William Menke, and associated online material.
+    
+   <li>   <a href = "https://link.springer.com/book/10.1007/978-3-319-91041-3" target = "blank"><b><u> Applied Linear Algebra</u></b></a>, Olver and Shakiban (2018).
+       
+       
+   <li> <a href = "https://www.amazon.in/Mathematical-Methods-Physics-Engineering-Comprehensive-ebook/dp/B00AKE1QJU" target = "blank"><b><u> Mathematical Methods for Physics and Engineering, Third Edition (2006),</u></b></a> Riley, Hobson and Bence
+    
+   <li> <a href = "https://samizdat.mines.edu/geophysical-inverse-theory-by-john-scales-martin-smith-and-sven-treitel/" target = "blank"><b><u>Geophysical Inverse Theory</u></b></a> by John Scales, Martin Smith and Sven Treitel, Colorado School of Mines
+    
+    <li> <a href = "https://speakerdeck.com/royiavital/singular-value-decomposition-why-and-how" target = "blank"> <b><u>Singular Value Decomposition lecture</u></b></a> by Royi Avital
+    
+    <li> <a href = "https://www.cambridge.org/core/books/guided-tour-of-mathematical-methods-for-the-physical-sciences/3C5AAC644C2B09F3F17837E703516920" target = "blank"><b><u>A Guided Tour of Mathematical Methods for the Physical Sciences,</u></b></a> Roel Snieder and Kasper van Wijk (2015)
+
+
+    
+
+</BODY>
+</HTML>
+
